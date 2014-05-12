@@ -67,11 +67,7 @@ public class MyScanActivity extends Activity
 		scanIntent.putExtra(CardIOActivity.EXTRA_SUPPRESS_MANUAL_ENTRY, false); // default: false
 
 		// MY_SCAN_REQUEST_CODE is arbitrary and is only used within this activity.
-		startActivityForResult(scanIntent, MY_SCAN_REQUEST_CODE);
-		
-		
-		
-		
+		startActivityForResult(scanIntent, MY_SCAN_REQUEST_CODE);		
 	}
 
 	@Override
